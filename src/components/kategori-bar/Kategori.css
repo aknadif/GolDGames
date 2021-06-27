@@ -1,0 +1,14 @@
+.kategori-bar {
+  background-color: #df9c27;
+  border-radius: 49px;
+  height: 92px;
+  font-size: 23px;
+  font-family: radnika-medium;
+}
+.kategori-bar a {
+  color: #0e1121;
+  margin-top: 25px;
+}
+.kategori-bar a:hover {
+  color: white;
+}

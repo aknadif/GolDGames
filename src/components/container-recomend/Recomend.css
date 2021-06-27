@@ -1,0 +1,31 @@
+.container-recomend {
+  padding: 0;
+  background-color: #000a1c;
+}
+.kategori {
+  padding: 0;
+  background-color: #df9c27;
+  width: 243px;
+  height: 395px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.btn-show {
+  font-family: Arial;
+  width: 100px;
+  height: 35px;
+  font-size: 13px;
+  border-radius: 20px;
+  border-color: #df9c27;
+  color: #df9c27;
+}
+.btn-show:hover {
+  color: white;
+  border-color: white;
+}
+.kategori h1 {
+  position: absolute;
+  color: #000a1c;
+  margin-top: 160px;
+  margin-left: 10px;
+}

@@ -1,0 +1,82 @@
+.container-fluid .carousel {
+  position: relative;
+}
+.carousel img {
+  height: 620px;
+  border-radius: 40px;
+}
+
+.carousel-caption h2 {
+  position: absolute;
+  margin-top: -359px;
+  margin-left: -155px;
+  font-size: 70px;
+  font-family: Azonix;
+}
+
+.carousel-caption img {
+  position: absolute;
+  margin-top: -560px;
+  margin-left: -675px;
+  width: 513px;
+  height: 136px;
+}
+
+.carousel-caption button {
+  position: absolute;
+  margin-top: -160px;
+  margin-left: -500px;
+  width: 194px;
+  height: 56px;
+  font-size: 26px;
+  font-family: Arial;
+  color: white;
+  border-radius: 40px;
+  background-color: #e0a43b;
+}
+.carousel-caption.sc2 h2 {
+  position: absolute;
+  margin-top: -360px;
+  margin-left: 750px;
+}
+.carousel-caption.sc2 button {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 320px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid .carousel {
+    position: relative;
+  }
+  .carousel img {
+    width: 600px;
+    height: 200px;
+    border-radius: 40px;
+  }
+  .carousel-caption h2 {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -20px;
+    font-size: 16px;
+    font-family: Azonix;
+  }
+  .carousel-caption button {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -110px;
+    width: 65px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .carousel-caption.sc2 h2 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 150px;
+  }
+  .carousel-caption.sc2 button {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 45px;
+  }
+}

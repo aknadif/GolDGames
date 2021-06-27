@@ -1,0 +1,19 @@
+.container-kategori {
+  padding: 0;
+  background-color: #000a1c;
+}
+.kategori-2 {
+  position: relative;
+  padding: 0;
+  background-color: #df9c27;
+  width: 240px;
+  height: 395px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.kategori-2 h1 {
+  position: absolute;
+  color: #000a1c;
+  margin-top: 160px;
+  margin-left: 30px;
+}
