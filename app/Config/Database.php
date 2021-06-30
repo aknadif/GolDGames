@@ -33,8 +33,8 @@ class Database extends Config
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
+		'username' => 'nadhif',
+		'password' => '123',
 		'database' => 'goldgames',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',

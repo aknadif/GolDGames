@@ -11,7 +11,7 @@ class Kontainer_Kategori extends Component {
     };
   }
   componentDidMount() {
-    axios.get("http://localhost/PHP/GolDGames/public/GamesController").then((result) => {
+    axios.get("/GamesController").then((result) => {
       let kategori = this.props.kategori;
       this.setState({
         card: result.data.filter(function (item) {

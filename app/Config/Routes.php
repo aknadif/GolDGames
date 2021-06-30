@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->resource('games');
 $routes->get('/', 'Home::index');
+$routes->get('/detail', 'Home::index');
 
 
 /*

@@ -22,7 +22,7 @@ const Carousel = () => {
               <h2>
                 The Modern <br /> World
               </h2>
-              <button className="btn btn-warning">Details</button>
+              <a href="/detail" className="btn btn-warning">Details</a>
             </div>
           </div>
           <div className="carousel-item ">
@@ -31,7 +31,7 @@ const Carousel = () => {
               <h2>
                 Modern <br /> Warfare Shooter
               </h2>
-              <button className="btn btn-warning">Details</button>
+              <a href="/detail" className="btn btn-warning">Details</a>
             </div>
           </div>
           <div className="carousel-item">
@@ -40,7 +40,7 @@ const Carousel = () => {
               <h2>
                 Battle Out <br /> Off Hell
               </h2>
-              <button className="btn btn-warning">Details</button>
+              <a href="/detail" className="btn btn-warning">Details</a>
             </div>
           </div>
         </div>

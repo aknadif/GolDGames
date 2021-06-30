@@ -23,9 +23,9 @@
   color: white;
   border-color: white;
 }
-.kategori h1 {
+.kategori h2 {
   position: absolute;
   color: #000a1c;
   margin-top: 160px;
-  margin-left: 10px;
+  margin-left: 20px;
 }

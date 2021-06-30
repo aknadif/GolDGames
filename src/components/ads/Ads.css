@@ -1,19 +1,6 @@
 .ads {
-  position: relative;
   background-color: white;
   border-radius: 15px;
   height: 91px;
 }
-.ads h1 {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 622px;
-}
 
-@media only screen and (max-width: 600px) {
-  .ads h1 {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 100px;
-  }
-}

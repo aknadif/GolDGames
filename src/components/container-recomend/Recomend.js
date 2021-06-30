@@ -14,7 +14,7 @@ export default class Recomend extends Component {
     };
   }
   componentDidMount() {
-    axios.get("http://localhost/PHP/GolDGames/public/GamesController").then((result) => {
+    axios.get("/GamesController").then((result) => {
       this.setState({
         card: result.data,
       });
@@ -54,7 +54,7 @@ export default class Recomend extends Component {
         <div className="row ">
           <div className="col-sm-2">
             <div className="kategori">
-              <h1>Recommend</h1>
+              <h2>Recommend</h2>
             </div>
           </div>
           <div className="col-sm-9">

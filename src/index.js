@@ -6,7 +6,7 @@ import Home from "./Page/home/Home";
 export default class Root extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Router>
           <Switch>
             <Route path="/detail" component={Detail} />
