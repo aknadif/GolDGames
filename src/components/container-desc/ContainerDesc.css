@@ -1,4 +1,16 @@
-.Desc h1{
-    color: black;
-    margin-top: 779px;
+.Desc{
+    background-color: #000a1c;
+    text-align: center;
 }
+
+.Desc h1{
+   color: #FFFFFF;
+   font-size: 30px;
+   font-family: "Mark Pro";
+}
+.container.desc{
+    width: 1298px;
+    height: 118px;
+}
+
+

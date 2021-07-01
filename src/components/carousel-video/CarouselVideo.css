@@ -38,14 +38,15 @@
 }
 
 input[type=text] {
+    color: #FFFFFF;
     width: 180px;
     height: 50px;
+    margin-top: -2px;
     box-sizing: border-box;
-    border-radius: 8px;
-    font-size: 16px;
-    background-color: white;
-    opacity: 20%;
+    border-radius: 6px;
+    opacity: 50%;
     background-image: url('https://img.icons8.com/material-outlined/50/000000/search--v1.png');
+    background-color: #2D2C2B;
     background-size: 25px;
     background-position: 10px 10px;
     background-repeat: no-repeat;
@@ -53,6 +54,13 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
+
+::placeholder{
+    font-size: 17px;
+    font-family: "Mark Pro";
+    color: #FFFFFF;
+}
+
 .vl {
     border-left: 1px solid white;
     height: 40px;
@@ -65,4 +73,26 @@ hr.line-horizontal {
     opacity: 80%;
     width: 90%;
     margin: auto;
+    margin-top: 8px;
+}
+
+.btn-back{
+    border: 1px solid #EEEAEA;
+    border-radius: 21px;
+    color: #EEEAEA;
+    font-size: 15px;
+    font-family: "Mark Pro";
+}
+.icon-back{
+    margin-top: -4px;
+    font-size: 20px;
+}
+.flex-fill h4{
+    font-family: "Mark Pro";
+    margin-top: 7px;
+    font-size: 20px;
+}
+.carousel-logo{
+    display: block;
+    margin: 70px auto;
 }
