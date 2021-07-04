@@ -6,3 +6,13 @@
 .bg-color{
     background-color: #000a1c;
 }
+.Detail h2{
+    color: #FFFFFF;
+    font-family: "Mark Pro";
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.container.detail{
+    margin-left: 80px;
+}

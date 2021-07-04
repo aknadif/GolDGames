@@ -1,0 +1,41 @@
+.container-download h1{
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: "Mark Pro";
+}
+.container-download img{
+    position: relative;
+    width: 1350px;
+    height: 600px;
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+}
+
+.tombol-download{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: "Mark Pro";
+    font-size: 22px;
+    margin-top: -300px;
+    width: 200px;
+    height: 60px;
+    background-color: #DF9C27;
+    border-radius: 4px;
+    border: none;
+}
+.tombol-download.tombol-1{
+    margin-left: 100px;
+}
+.tombol-download.tombol-2{
+    margin-left: 400px;
+}
+.tombol-download.tombol-3{
+    margin-left: 700px;
+}
+.tombol-download.tombol-4{
+    margin-left: 1000px;
+}

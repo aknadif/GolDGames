@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { Component } from "react";
-import { Card } from "../cards/Cards";
+import { Card } from "../../cards/Cards";
 import "./Recomend.css";
 
 export default class Recomend extends Component {

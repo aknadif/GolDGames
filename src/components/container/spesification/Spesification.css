@@ -1,0 +1,49 @@
+.container-spesification{
+    overflow: auto;
+    width: 1360px;
+    height: 550px;
+    background-color: #020511;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.container-content-spesification{
+    margin: auto;
+    margin-top: 60px;
+    width: 1250px;
+    height: 450px;
+    background-color: #020511;
+}
+.container-content-spesification h1{
+    color: #FFFFFF;
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: "Mark Pro";
+}
+.container-content-spesification hr{
+    margin: auto;
+    color: #FFFFFF;
+    width: 95%;
+}
+.container-content-spesification .row{
+    margin-left: 40px;
+}
+.container-content-spesification h4{
+    color: #DF9C27;
+    font-family: "Mark Pro";
+    font-size: 18px;
+}
+.container-content-spesification h5, .container-content-spesification h6{
+    color: #DF9C27;
+    font-family: "Mark Pro";
+    font-size: 16px;
+}
+.container-content-spesification h6{
+    color: #F1F1F1;
+}
+.container-content-spesification .vl{
+    height: 155px;
+}
+.container-content-spesification .row .row{
+    margin-top: 50px;
+    margin-left: -10px;
+}

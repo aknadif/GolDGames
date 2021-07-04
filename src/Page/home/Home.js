@@ -3,9 +3,9 @@ import "../home/Home.css";
 import Header from "../../components/header/Header";
 import Ads from "../../components/ads/Ads";
 import Carousel from "../../components/carousel/Caraousel";
-import Recomend from "../../components/container-recomend/Recomend";
+import Recomend from "../../components/container/recomend/Recomend";
 import Kategori from "../../components/kategori-bar/Kategori";
-import KontainerKategori from "../../components/container-kategori/KontainerKategori";
+import KontainerKategori from "../../components/container/kategori/KontainerKategori";
 
 function Home() {
   return (

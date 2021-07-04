@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { Component } from "react";
-import { Card } from "../cards/Cards";
+import { Card } from "../../cards/Cards";
 import "./KontainerKategori.css";
 
 class Kontainer_Kategori extends Component {
