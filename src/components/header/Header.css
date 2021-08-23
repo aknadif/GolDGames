@@ -4,6 +4,9 @@
   background-color: #40403F;
 }
 .navbar-brand img {
-  width: 406px;
-  height: 106px;
+  /* width: 406px;
+  height: 106px; */
+  padding: 10px;
+  width: 100px;
+  height: 100px;
 }

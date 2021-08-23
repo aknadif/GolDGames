@@ -36,7 +36,7 @@ export default function CarouselVideo(props) {
         <hr className="line-horizontal" />
         <img src={ACVLogo} className="carousel-logo" />
         <div className="d-flex justify-content-evenly">
-          <ButtonDownload link="/" value="Download" />
+          <ButtonDownload link="/" value="Buy Now.." />
           <ButtonSpesification link="/" value="Spesification" />
         </div>
       </div>
